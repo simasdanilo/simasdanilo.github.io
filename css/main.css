@@ -21,30 +21,33 @@ main{
 }
 
 #name {
+    font-size: 1.75em;
     font-family: montserrat-light;
     color: #fff;
     text-align: center;
-    margin: 16px auto;
+    margin: 16px 12px auto;
 }
 
 #description {
+    font-size: 1.25em;
     font-family: montserrat-thin;
     color: rgba(255,255,255,0.65);
     text-align: center;
-    margin: 16px auto;
+    margin: 12px auto;
 }
 
 #about-me {
   font-family: montserrat-thin;
   font-size: 1.25em;
-  color: rgba(255,255,255,0.65);
+  line-height: 1.5;
+  color: rgba(255,255,255,0.75);
   text-align: center;
   margin: 24px auto;
 }
 
 #avatar-container{
-    height: 400px;
-    width: 400px;
+    height: 375px;
+    width: 375px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,8 +57,10 @@ main{
 }
 
 #avatar{
-    height: 310px;
-    width: 185px;
+    height: 80%;
+    width: auto;
+    max-height: 310px;
+    max-width: 185px;
     display: block;
 }
 
