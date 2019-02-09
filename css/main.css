@@ -14,35 +14,15 @@ body {
 
 main{
   width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #content{
-    margin: 100px 0px auto;
-}
-
-#name {
-    font-size: 1.75em;
-    font-family: montserrat-light;
-    color: #fff;
-    text-align: center;
-    margin: 16px 12px auto;
-}
-
-#description {
-    font-size: 1.25em;
-    font-family: montserrat-thin;
-    color: rgba(255,255,255,0.65);
-    text-align: center;
-    margin: 12px auto;
-}
-
-#about-me {
-  font-family: montserrat-thin;
-  font-size: 1.25em;
-  line-height: 1.5;
-  color: rgba(255,255,255,0.75);
-  text-align: center;
-  margin: 24px auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
 }
 
 #avatar-container{
@@ -53,7 +33,10 @@ main{
     align-items: center;
     border-radius: 50%;
     background-color: #464d60;
-    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
 
 #avatar{
@@ -62,6 +45,40 @@ main{
     max-height: 310px;
     max-width: 185px;
     display: block;
+}
+
+#name {
+    font-size: 1.75em;
+    font-family: montserrat-light;
+    color: #fff;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+#description {
+    font-size: 1.25em;
+    font-family: montserrat-thin;
+    color: rgba(255,255,255,0.65);
+    text-align: center;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+#about-me {
+  font-family: montserrat-thin;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.75);
+  text-align: center;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
 }
 
 #links-container {
